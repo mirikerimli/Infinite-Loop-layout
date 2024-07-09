@@ -22,7 +22,7 @@ a {
 .header {
   color: #fff;
   height: 100vh;
-  background: url(./assets/images/infinite-loop-01.jpg);
+  background: url(../images/infinite-loop-01.jpg);
   background-repeat: no-repeat;
   background-position: center -450px;
   position: relative;
@@ -212,7 +212,7 @@ main .container {
 
 .testimonials {
   height: 100vh;
-  background: url(./assets/images/infinite-loop-02.jpg);
+  background: url(../images/infinite-loop-02.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -346,7 +346,7 @@ main .container {
 }
 
 .contact {
-  background: url(./assets/images/infinite-loop-03.jpg);
+  background: url(../images/infinite-loop-03.jpg);
   height: 100vh;
   background-attachment: fixed;
   background-position: center -217px;
