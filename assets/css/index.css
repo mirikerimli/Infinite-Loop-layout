@@ -1,0 +1,445 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  color: #fff;
+  height: 100vh;
+  background: url(/assets/images/infinite-loop-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center -450px;
+  position: relative;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background-color: transparent;
+  transition: background-color 0.3s linear;
+}
+
+.scrolled {
+  background-color: #fff;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar ul li {
+  padding: 5px 0;
+}
+
+.navbar ul li .nav_link {
+  display: block;
+  padding: 15px 30px;
+  font-size: 20px;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.navbar ul li .scrolled__li {
+  color: #0056b3;
+}
+
+.nav_item {
+  margin-right: auto;
+}
+
+.nav_item a {
+  font-size: 1.4rem !important;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  background-color: #38b;
+}
+
+.nav_item a:hover {
+  background-color: transparent !important;
+  color: #007bff;
+}
+
+.nav_main {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nav_main h1 {
+  font-size: 3.5rem;
+  text-shadow: 2px 2px 2px #333;
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+}
+
+.nav_main p {
+  text-shadow: 2px 2px 2px #333;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.nav_block_button {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 100px;
+}
+
+.nav_button {
+  display: inline-block;
+  color: #fff;
+  cursor: pointer;
+  background: #357;
+  padding: 15px 40px;
+  transition: all 0.3s linear;
+  font-size: 1em;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+.nav_button:hover {
+  padding: 20px 50px;
+  background: #37a;
+}
+
+main .container {
+  padding: 0 30px;
+}
+
+.what_we_do {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.what_first {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.what_we_do h1 {
+  font-size: 2.6rem;
+  color: #37a;
+  font-weight: normal;
+  margin-bottom: 24px;
+}
+
+.what_we_do p {
+  font-size: 1.2rem;
+  color: #707070;
+  line-height: 1.9;
+  margin-bottom: 24px;
+}
+
+.what_block {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.what_item {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.what_item i {
+  display: block;
+  font-size: 3.5em;
+  font-weight: 400;
+  color: #37a;
+}
+
+.what_item h3 {
+  margin-bottom: 24px;
+  color: #37a;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.what_item p {
+  margin-bottom: 24px;
+}
+
+.what_item a {
+  display: inline-block;
+  color: white;
+  background-color: #369;
+  padding: 14px 30px;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+.what_item a:hover {
+  background-color: #38b;
+}
+
+.testimonials {
+  height: 100vh;
+  background: url(/assets/images/infinite-loop-02.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: center -183px;
+}
+
+.testimonials_container {
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonials_container h1 {
+  font-size: 2.6rem;
+  font-weight: normal;
+  color: #fff;
+  padding-bottom: 24px;
+}
+
+.testimonials_first_p {
+  max-width: 650px;
+  font-size: 0.9rem;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 86px;
+}
+
+.testimonials_items {
+  padding-bottom: 120px;
+  display: flex;
+  gap: 70px;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials_card {
+  width: 280px;
+}
+
+.image {
+  text-align: center;
+}
+
+.image img {
+  border-radius: 50%;
+  margin-bottom: 35px;
+}
+
+.card_p {
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.card_author {
+  text-align: right;
+  font-style: italic;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.gallery {
+  height: 100vh;
+  text-align: center;
+  padding-top: 110px;
+}
+
+.gallery h1 {
+  padding-bottom: 24px;
+  font-size: 2.6rem;
+  font-weight: normal;
+  color: #37a;
+}
+
+.gallery p {
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 1.9;
+  color: #707070;
+  padding-bottom: 86px;
+}
+
+.gallery_items {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 35px;
+}
+
+.gallery__item {
+  position: relative;
+}
+
+.gallery_block {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  top: 0;
+  opacity: 0;
+  background-color: rgba(255, 0, 0, 0.2);
+  border-bottom: 0px solid #369;
+  transition: all 0.3s linear;
+}
+
+.gallery__item:hover .gallery_block {
+  opacity: 1;
+  border-bottom: 12px solid #369;
+}
+
+.transform__text {
+  font-size: 20px;
+  transition: all 0.3s linear;
+}
+
+.gallery__item:hover .transform__text {
+  transform: translateY(66px);
+}
+
+.gallery_items a img {
+  width: 100%;
+  height: 100%;
+}
+
+.contact {
+  background: url(/assets/images/infinite-loop-03.jpg);
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center -217px;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-top: 100px;
+  color: white;
+  background-color: #001828;
+}
+
+.contact_container {
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.contact_container h1 {
+  font-size: 2.6rem;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.contact_paragraph {
+  line-height: 1.9;
+  margin-bottom: 3rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.contact_main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.contact_right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 0 15px;
+}
+
+.contact_right a {
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.contact_right a:hover {
+  color: #0056b3;
+}
+
+.input {
+  margin-bottom: 20px;
+  width: 90%;
+  padding: 8px 20px;
+  border-radius: 6px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  font-size: 20px;
+}
+
+.input::placeholder {
+  color: #fff;
+}
+
+form button {
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #369;
+  width: 50%;
+  margin-bottom: 60px;
+  border: none;
+  outline: none;
+  padding: 8px 32px;
+  transition: all 0.3s ease;
+}
+
+form button:hover {
+  background-color: #38b;
+}
